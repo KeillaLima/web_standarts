@@ -7,3 +7,6 @@ https://earnest-frangollo-bf09cf.netlify.app
 
 # visualização do site via Vercel
 https://vercel.com/keillalimas-projects/web-standarts/HAAwNUq6QcaWTqy47yztu4oRpPRX
+
+
+https://github.com/KeillaLima/web_standarts
