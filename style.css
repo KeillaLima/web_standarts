@@ -1,0 +1,213 @@
+body{
+    background-color: rgb(253, 236, 214);
+    font-family: 'Poppins';
+    padding: 0;
+    margin: 0;
+}
+
+.secao__inicial{
+    display: flex;
+    width: 80%;
+    padding: 10px 40px 20px 40px;
+    margin: 2vw 7vw 2vw 7vw;
+    background-image: url(img/folhas__back.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: right;
+}
+
+.logo__inicio{
+    width: 240px;
+    margin-bottom: -30px;
+}
+
+.secao__inicial__primeiro{
+    padding: 5vh 0;
+    width: 50%;
+}
+
+.secao__inicial__segundo{
+    width: 50%;
+}
+
+.secao__inicial__primeiro h1{
+    text-transform: uppercase;
+    color: rgba(117, 95, 74, 0.932);
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.secao__inicial__primeiro p{
+    color: rgba(117, 95, 74, 0.932);
+    margin: -20px 0 50px 0;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.secao__inicial__primeiro a{
+    background: linear-gradient(90deg, #5a504a, #755F4A, #bea791);
+    padding: 20px 120px;
+    border-radius: 15px;
+    text-decoration: none;
+    border-color: transparent;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.secao__inicial__segundo__img{
+    width: 600px;
+}
+
+.segunda__secao{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(201, 200, 199);
+    width: 100vw;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.lista__icones{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 70vw;
+}
+
+.lista__icones img{
+    width: 50px;
+}
+
+.lista__icones p{
+    text-align: center;
+    padding-left: 10px;
+}
+
+.icone__nutri, .icone__hiper, .icone__emagre, .icone_reed{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    justify-content: center;
+    background: linear-gradient(90deg, #ece6e2, #dbcbbb, #d8bfa7);
+    border-radius: 15px;
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 0.404);text-align: center;
+    margin: -20px 10px 0 10px;
+}
+
+.icone__nutri p{
+    padding-top: 8px;
+}
+
+.icone__hiper p{
+    padding-top: 15px;
+}
+
+.icone__emagre p{
+    padding-top: 15px;
+}
+
+.icone_reed p{
+    padding-top: 8px;
+}
+
+.sessao__foto{
+    background-image: url(img/pngtree-xmas-caprese-salad-served-in-plate-as-christmas-tree-for-festive-png-image_14007115.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    display: flex;
+    margin: 5vw;
+    justify-content: center;
+    color: #fff;
+    text-align: left;
+}
+
+.sessao__foto__titulo{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sessao__foto__titulo h2{
+    text-shadow: 2px 2px 10px #000000;
+    font-size: 40px;
+}
+
+.sessao__foto__explic{
+    width: 35%;
+    text-align: left;
+    background-color: rgba(36, 35, 34, 0.726);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form__contato{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form__contato form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+}
+
+.form__contato h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgba(117, 95, 74, 0.932);
+}
+
+.form__contato__div{
+    display: flex;
+    width: 100%;
+    text-align: left;
+    padding: 15px;
+}
+
+.form__contato__div label{
+    width: 50%;
+    font-size: 20px;
+    color: rgba(117, 95, 74, 0.932);
+}
+
+.form__contato__div input{
+    width: 400px;
+    height: 40px;
+    border: none;
+}
+
+.sessao__footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(201, 200, 199);
+    color: rgba(117, 95, 74, 0.932);
+}
+
+.form__contato__botao{
+    background: linear-gradient(90deg, #5a504a, #755F4A, #bea791);
+    color: #fff;
+    padding: 15px 120px;
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+    font-weight: 600;
+
+}
+
+.sessao__footer p{
+    width: 50%;
+}
